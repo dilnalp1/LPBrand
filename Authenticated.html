@@ -25,15 +25,15 @@ lpTag.identities.push(identityFn);
     lpTag.sdes.push(
         {
             "type": "cart", //MANDATORY
-            "total": 25.0, //TOTAL CART VALUE
+            "total": 225.0, //TOTAL CART VALUE
             "currency": "USD", //CURRENCY CODE
             "numItems": 1, //NUMBER OF ITEMS IN CART
             "products": [{ //ARRAY OF PRODUCTS
                 "product": {
-                "name": "Title : Online Shopping", //PRODUCT NAME
-                "category": "Sports", //PRODUCT CATEGORY NAME
+                "name": "Spider Man Costume", //PRODUCT NAME
+                "category": "Apparels", //PRODUCT CATEGORY NAME
                 "sku": "sku", //PRODUCT SKU OR UNIQUE IDENTIFIER
-                "price": 25 //PRODUCT PRICE
+                "price": 225 //PRODUCT PRICE
                 }
             }],
             "quantity": 1
@@ -42,7 +42,7 @@ lpTag.identities.push(identityFn);
     // Hard Coded JWT needed for Authentication.
      function getAuthToken(callback) {
          console.log("Inside Authenticate Function");
-         let token = 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJsZWVsYSIsImFjciI6ImxvYTEiLCJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNzE0MTg1NTgwLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJMZWVsYUtyaXNobmEiLCJwaG9uZV9udW1iZXIiOiIrMS0xMC0zNDQtOTg3ODk5MTkifQ.P4QpJWRnkxHjLvawohB28qHCRstUH5Xlh-Hw9oJ1Q0PoFdCtWuBwfjjnGcHLTHUjrDipi83VZs52c_t2JmIJWBM5f3_6xN9CAFp2ZMbIcxZNU4A15MGLNf7dDJh9xrw5Efpuw9gkiz4Ofw9r_KM5mJ_5vebFaZvQUdZA1mLHGvJQSd_mGkO5gQzWBB53FYNfZYFFudh5Bpr0byfbZskPMDs6gAh1oEMKlBEgF9r1msIGxAFYh6_AJtIeMk8bd-kHaHjPErAcwqUWswAj6jvCUWJ1qzkA1woQLDNfeaC6oVuPJ-vuIKWmZcDZGYzX-uICqv3_QW9_ecea3qmv5xfPXA';
+         let token = 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJEaWxuYSIsImFjciI6ImxvYTEiLCJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoiMTY5OTI4MzYwNiIsInByZWZlcnJlZF91c2VybmFtZSI6IkRpbG5hIn0.ao80o9JMVi87409HD_pulKurdiJHK9StnMYRkld-dPZ9eRSduwdjdWs92JQlW55FhbLoafLZh9NXwWiNbyOYek_ISpLKX4yz-jkXOLf_AWlWt8r7y1ft4Ns_dMDJYk_CpER9Dkk8S8Q4TPKvta_YNT3wxJa8YKGApV7Qp3kSTQUTPL88e77VFrOaeiP0IKFrWOzXKH6aYTMuez4sbJIaTo9TqwJweJ3kexLX-jcWGydTQ3Fr14B_LvNpf6pBeR5istpL5F-KlKx5ELZoYC6wds1BvAEJWyrvXQOeAEmqUT_Vgxio9mhWqbO2--Pxuk8Dc5d9eT9eOR1H_-6d_pTvsA';
          callback(token);
      }
 
